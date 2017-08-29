@@ -12,3 +12,7 @@ img {
     left:0;
     object-fit:cover;
 }
+
+body {
+    text-align:center;
+}
