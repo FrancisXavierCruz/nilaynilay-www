@@ -16,6 +16,7 @@ img {
 
 body {
     text-align:center;
+    line-height:120%;
 }
 
 .italic {
@@ -25,9 +26,10 @@ body {
 .textContent {
     padding:5px;
     width:90%;
-    line-height:120%;
     color:#FFF;
     background-color:rgba(0,0,0,0.5);
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .textContent h1 {
@@ -49,6 +51,6 @@ body {
     font-size:15px;
 }
 
-.issueInfo {
+.issueInfo li {
     list-style-type:none;
 }
