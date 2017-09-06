@@ -24,6 +24,31 @@ body {
 
 .textContent {
     padding:5px;
+    width:90%;
+    line-height:120%;
     color:#FFF;
     background-color:rgba(0,0,0,0.5);
+}
+
+.textContent h1 {
+    font-style:bold;
+    font-size:24px;
+}
+
+.textContent h2 {
+    font-style:bold;
+    font-size:21px;
+}
+
+.textContent h3 {
+    font-style:bold;
+    font-size:18px;
+}
+
+.textContent p, .textContent li {
+    font-size:15px;
+}
+
+.issueInfo {
+    list-style-type:none;
 }
