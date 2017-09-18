@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400i,700');
 
-h1,h2,h3,p,ol,ul,li,a {
+h1, h2, h3, p, ol, ul, li, a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -29,35 +29,35 @@ body {
 
 .textContent {
     padding:5px;
-    width:90%;
+    width:85%;
     color:#FFF;
     background-color:rgba(0,0,0,0.5);
     margin-left:auto;
     margin-right:auto;
 }
 
-.textContent div h1, .textContent div h2, .textContent div h3 {
-    font-weight:200;
+h1, h2, h3 {
     line-height:1.5;
+    font-weight:200;
 }
 
-.textContent div h1 {
+h1 {
+    font-size:19px;
+}
+
+h2 {
     font-size:18px;
 }
 
-.textContent div h2 {
+h3 {
     font-size:17px;
 }
 
-.textContent div h3 {
-    font-size:16px;
-}
-
 .textContent div p, .textContent div ul li, .textContent div ol li {
-    font-size:15px;
+    font-size:16px;
     line-height:1.35;
 }
 
-.textContent div ul li, .textContent div ol li{
+.textContent div ul li {
     list-style: none;
 }
