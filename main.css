@@ -6,6 +6,7 @@ h1,h2,h3,p,ol,ul,li,a {
 
 a, a:visited {
     color:#FF0;
+    font-style:none;
 }
 
 img {
