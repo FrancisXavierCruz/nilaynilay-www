@@ -1,0 +1,5 @@
+User-agent: Googlebot
+Disallow: /tweets/
+Disallow: /privacy_policy/
+Disallow: /offer/
+Disallow: /videos/
