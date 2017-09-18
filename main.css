@@ -60,5 +60,8 @@ h3 {
 
 .textContent div ul li {
     list-style:none;
+}
+
+.textContent div ul, .textContent div ol {
     padding-left:0;
 }
