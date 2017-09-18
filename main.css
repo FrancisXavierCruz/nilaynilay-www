@@ -59,5 +59,6 @@ h3 {
 }
 
 .textContent div ul li {
-    list-style: none;
+    list-style:none;
+    padding-left:0;
 }
