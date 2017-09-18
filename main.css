@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400i,700');
 
 h1,h2,h3,p,ol,ul,li,a {
     font-family: 'Source Sans Pro', sans-serif;
@@ -36,8 +36,9 @@ body {
     margin-right:auto;
 }
 
-.textContent div h1, .textContent div h2, .textContent div h3, .textContent div p, .textContent div ul li, .textContent div ol li {
-    line-height:1.35;
+.textContent div h1, .textContent div h2, .textContent div h3 {
+    font-weight:200;
+    line-height:1.5;
 }
 
 .textContent div h1 {
@@ -54,6 +55,7 @@ body {
 
 .textContent div p, .textContent div ul li, .textContent div ol li {
     font-size:15px;
+    line-height:1.35;
 }
 
 .textContent div ul li, .textContent div ol li{
