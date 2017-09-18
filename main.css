@@ -4,6 +4,10 @@ h1,h2,h3,p,ol,ul,li,a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a, a:visited {
+    color:#FF0;
+}
+
 img {
     width:100%;
     height:100%;
@@ -31,22 +35,26 @@ body {
     margin-right:auto;
 }
 
-.textContent h1, .textContent h2, .textContent h3, .textContent p, .textContent ul li, .textContent ol li {
+.textContent div h1, .textContent div h2, .textContent div h3, .textContent div p, .textContent div ul li, .textContent div ol li {
     line-height:1.35;
 }
 
-.textContent h1 {
+.textContent div h1 {
     font-size:18px;
 }
 
-.textContent h2 {
+.textContent div h2 {
     font-size:17px;
 }
 
-.textContent h3 {
+.textContent div h3 {
     font-size:16px;
 }
 
-.textContent p, .textContent ul li, .textContent ol li {
+.textContent div p, .textContent div ul li, .textContent div ol li {
     font-size:15px;
+}
+
+.textContent div ul li, .textContent div ol li{
+    list-style: none;
 }
