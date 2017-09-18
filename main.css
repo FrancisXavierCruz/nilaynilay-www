@@ -16,7 +16,6 @@ img {
 
 body {
     text-align:center;
-    line-height:120%;
 }
 
 .italic {
@@ -32,25 +31,22 @@ body {
     margin-right:auto;
 }
 
+.textContent h1, .textContent h2, .textContent h3, .textContent p, .textContent ul li, .textContent ol li {
+    line-height:1.35;
+}
+
 .textContent h1 {
-    font-style:bold;
-    font-size:24px;
-}
-
-.textContent h2 {
-    font-style:bold;
-    font-size:21px;
-}
-
-.textContent h3 {
-    font-style:bold;
     font-size:18px;
 }
 
-.textContent p, .textContent li {
-    font-size:15px;
+.textContent h2 {
+    font-size:17px;
 }
 
-.issueInfo li {
-    list-style-type:none;
+.textContent h3 {
+    font-size:16px;
+}
+
+.textContent p, .textContent ul li, .textContent ol li {
+    font-size:15px;
 }
