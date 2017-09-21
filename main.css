@@ -28,12 +28,17 @@ body {
 }
 
 .textContent {
-    padding:5px;
-    width:85%;
+    padding:10px;
     color:#FFF;
     background-color:rgba(0,0,0,0.5);
-    margin-left:auto;
-    margin-right:auto;
+    margin: 0 auto;
+    display:inline-block;
+}
+
+.textContentWrapper {
+    width:85%;
+    height:85%;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
