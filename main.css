@@ -46,20 +46,22 @@ h1, h2, h3 {
     font-weight:200;
 }
 
+// mobile phones
+
 h1 {
-    font-size:19px;
-}
-
-h2 {
-    font-size:18px;
-}
-
-h3 {
     font-size:17px;
 }
 
-.textContent div p, .textContent div ul li, .textContent div ol li {
+h2 {
     font-size:16px;
+}
+
+h3 {
+    font-size:15px;
+}
+
+.textContent div p, .textContent div ul li, .textContent div ol li {
+    font-size:14px;
     line-height:1.35;
 }
 
@@ -69,4 +71,25 @@ h3 {
 
 .textContent div ul, .textContent div ol {
     padding-left:0;
+}
+
+// bigger screens
+
+@media only screen and (min-height:480px) and (min-width:640px) {
+    h1 {
+		font-size:19px;
+	}
+
+	h2 {
+		font-size:18px;
+	}
+
+	h3 {
+		font-size:17px;
+	}
+
+	.textContent div p, .textContent div ul li, .textContent div ol li {
+		font-size:16px;
+		line-height:1.35;
+	}
 }
